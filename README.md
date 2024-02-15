@@ -1,2 +1,5 @@
-# docker-maria-master-master
-test mysql master-master replication with docker-compose
+# test mysql master-master replication
+
+docker-compose -p marias-playground down -v
+docker-compose -p marias-playground up -d
+
